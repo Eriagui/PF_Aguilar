@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!--Inicio Liga Favicon-->
+    <link rel="icon" href="../assets/images/icon.ico">
+    <!--Fin Liga Favicon-->
+
+    <!--Inicia Liga CSS-->
+    <link rel="stylesheet" href="../styles/style.css">
+    <!--Fin Liga CSS-->
+</head>
+<body class="contacto">
+    <header>
+        <nav class="menu">
+            <a href="index.html"> 
+                <img id="Logo1" src="../assets/images/logo.png" alt="Logo Clinica">
+            </a>
+            <p id="NombreClinica">
+                Clínica Odontológica Manzo 
+            </p>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <a href="https://api.whatsapp.com/send?phone=524461488777" class="btn-wsp" target="_blank"></a>
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <form method="post" name="FormContacto">
+                <!--Nombre-->
+                <div id="nombre">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <!--Email-->
+                <div id="email">
+                    <label for="">E-mail</label>
+                    <input type="email" name="email">
+                </div>
+                <!--Telefono-->
+                <div id="telefono">
+                    <label for="">Teléfono</label>
+                    <input type="number" name="telefono">
+                </div>
+                <p id="mensaje">Tu mensaje:</p>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p id="NombreClinicaFooter">Clínica Odontológica Manzo</p>
+        <p id="DerechosReservados">2024 Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

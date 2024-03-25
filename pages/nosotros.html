@@ -5,16 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
 
+    <!--Link CSS de Bootstrap descargado-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--Fin Link CSS de Bootstrap descargado-->
+
+    <!--Inicia Liga CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Fin Liga CSS-->
+
     <!--Inicio Liga Favicon-->
     <link rel="icon" href="../assets/images/icon.ico">
     <!--Fin Liga Favicon-->
 
-    <!--Inicia Liga CSS-->
-    <link rel="stylesheet" href="../styles/style.css">
-    <!--Fin Liga CSS-->
 </head>
 <body>
-    <header>
+
+    <!-- nav + logo -->
+<header class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-xs-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="d-inline-block align-top" id="Logo1" src="../assets/images/logo.png" alt="Logo Clinica">
+                    <h2 class="d-inline-block align-bottom">Odontológica Manzo</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav2">
+                    <ul class="navbar-nav w-100 d-flex justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!--    <header>
         <nav class="menu">
             <a href="index.html"> 
                 <img id="Logo1" src="../assets/images/logo.png" alt="Logo Clinica">
@@ -40,69 +80,82 @@
                 </li>
             </ul>
         </nav>
-    </header>
-
-    <a href="https://api.whatsapp.com/send?phone=524461488777" class="btn-wsp" target="_blank"></a>
+    </header> -->
     
-    <main class="texto_nosotros">
-        <h1>Nosotros</h1>
-        <p>Somos un grupo de profesionales médicos apasionados por la salud bucal de las
-            personas para contribuir con esto en la mejora de la salud general, bienestar 
-            y calidad de vida de las mismas.
-        </p>
+        <main class="texto_nosotros">
+            <h1>Nosotros</h1>
+            <p>Somos un grupo de profesionales médicos apasionados por la salud bucal de las
+                personas para contribuir con esto en la mejora de la salud general, bienestar 
+                y calidad de vida de las mismas.
+            </p>
 
-        <h2>Algunos de Nuestros Colaboradores:</h2>
-        
-        <section class="SecDaniel">
-            <img id="Daniel" src="../assets/images/daniel.jpg" alt="Daniel">
+            <h2>Algunos de Nuestros Colaboradores:</h2>
+            
+            <section class="SecDaniel">
+                <img id="Daniel" src="../assets/images/daniel.jpg" alt="Daniel">
 
-            <div class="textoDaniel">
-                <h3>Doctor Daniel Manzo</h3>
-                <ul>
-                    <li>Licenciado en Odontología por la Facultad de Odontología de la UNAM</li>
-                    <li>Especialidad en Odontopediatría por la Facultad de Odontología de la UNAM</li>
-                    <li>Maestro en Materiales por la Facultad de Odontología de la UNAM</li>
-                    <li>Profesor de Licenciatura en Odontología en la Universidad Mondragón</li>
-                    <li>Ponente en diferentes congresos a nivel nacional e internacional</li>
-                    <li>Cuenta con más de 5 años de experiencia atendiendo pacientes pediátricos
-                        y no pediátricos
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-        <section class="SecEstefi">
-            <div class="textoEstefi">
-                <h3>Doctora Estefanía</h3>
-                <ul>
-                    <li>Licenciada en Odontología por la Universidad Mondragón</li>
-                    <li>Profesor de Licenciatura en Odontología en la Universidad Mondragón</li>
-                    <li>Cuenta con más de 3 años de experiencia atendiendo pacientes pediátricos
-                        y no pediátricos
-                    </li>
-                </ul>
-            </div>
-            <img id="Estefi" src="../assets/images/estefi.png" alt="Estefi">
-        </section>
+                <div class="textoDaniel">
+                    <h3>Doctor Daniel Manzo</h3>
+                    <ul>
+                        <li>Licenciado en Odontología por la Facultad de Odontología de la UNAM</li>
+                        <li>Especialidad en Odontopediatría por la Facultad de Odontología de la UNAM</li>
+                        <li>Maestro en Materiales por la Facultad de Odontología de la UNAM</li>
+                        <li>Profesor de Licenciatura en Odontología en la Universidad Mondragón</li>
+                        <li>Ponente en diferentes congresos a nivel nacional e internacional</li>
+                        <li>Cuenta con más de 5 años de experiencia atendiendo pacientes pediátricos
+                            y no pediátricos
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="SecEstefi">
+                <div class="textoEstefi">
+                    <h3>Doctora Estefanía</h3>
+                    <ul>
+                        <li>Licenciada en Odontología por la Universidad Mondragón</li>
+                        <li>Profesor de Licenciatura en Odontología en la Universidad Mondragón</li>
+                        <li>Cuenta con más de 3 años de experiencia atendiendo pacientes pediátricos
+                            y no pediátricos
+                        </li>
+                    </ul>
+                </div>
+                <img id="Estefi" src="../assets/images/estefi.png" alt="Estefi">
+            </section>
 
-        <section class="SecJuan">
-            <img id="Juan" src="../assets/images/juan.png" alt="Juan">
-            <div class="textoJuan">
-                <h3>Doctor Juan Perez Chavez</h3>
-                <ul>
-                    <li>Licenciada en Odontología por la Universidad Mondragón</li>
-                    <li>Especialidad en Odontopediatría por la Facultad de Odontología de la UNAM</li>
-                    <li>Cuenta con más de 3 años de experiencia atendiendo pacientes pediátricos
-                        y no pediátricos</li>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
+            <section class="SecJuan">
+                <img id="Juan" src="../assets/images/juan.png" alt="Juan">
+                <div class="textoJuan">
+                    <h3>Doctor Juan Perez Chavez</h3>
+                    <ul>
+                        <li>Licenciada en Odontología por la Universidad Mondragón</li>
+                        <li>Especialidad en Odontopediatría por la Facultad de Odontología de la UNAM</li>
+                        <li>Cuenta con más de 3 años de experiencia atendiendo pacientes pediátricos
+                            y no pediátricos</li>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
 
-    <footer>
+<!--Footer-->
+<!-- <div class="container-fluid">
+    <footer class="row footerBg paddingTB">
+        <div class="col-lg-6 col-xs-12">
+            <p>Clínica Odontológica Manzo</p>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+            <p>2024 Todos los derechos reservados</p>
+        </div>
+    </footer>
+</div> -->
+
+<a href="https://api.whatsapp.com/send?phone=524461488777" class="btn-wsp" target="_blank"></a>
+<!--    <footer>
         <p id="NombreClinicaFooter">Clínica Odontológica Manzo</p>
         <p id="DerechosReservados">2024 Todos los derechos reservados</p>
-    </footer>
+    </footer> -->
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -163,59 +163,87 @@ footer {
 
 /*---------------------Inicio de CSS para Nosotros----------------------------------*/
 
-.texto_nosotros h3{
+.texto_nosotros {
+    display: grid;
+    /*gap: 2rem;*/
+    grid-template-columns: 100%;
+    /*grid-template-rows: 20px;*/
+
+    grid-template-areas:
+    "nosotros"
+    "parrafo"
+    "colaboradores"
+    "daniel"
+    "estefi"
+    "juan"
+    ;
+    /*grid-row: 15px;
+    grid-column: 15px;*/
+}
+
+.texto_nosotros h1{
+    /*margin: 0px 0px 30px 650px;*/
+    grid-area: nosotros;
+    display: flex;
+    justify-content: center;
+}
+
+/*.texto_nosotros h3{
     display:inline-block;
 
-}
+}*/
 
-.texto_nosotros ol li{
+/*.texto_nosotros ol li{
     margin: 10px 0px 0px 30px;
     list-style-position: inside;
-}
+}*/
 
 .texto_nosotros ul li{
     margin: 10px 0px 0px 30px;
     list-style-position: inside;
 }
 
-.texto_nosotros h1{
-    margin: 0px 0px 30px 650px;
+.texto_nosotros h2{
+    grid-area: colaboradores;
 }
-
-.texto_nosotros h2,h4{
+/*.texto_nosotros h2,h4{
     margin: 10px 0px 10px 0px;
-}
+} */
 
 .texto_nosotros p{
-    display: inline-block;
-    margin: 0px 0px 10px 0px;
+/*    display: inline-block;
+    margin: 0px 0px 10px 0px; */
+    grid-area: parrafo;
 }
 
 /*Inician atributos Daniel*/
 .SecDaniel{
-    display: block;
-    margin: 0px 0px 0px 20px;
+    grid-area: daniel;
+    /*display: block;*/
+/*    margin: 0px 0px 0px 20px; */
 }
 
 #Daniel{
-    display:inline-block;
+    display: inline-block;
     width: 400px;
     height: 300px;
-    margin: 0px 0px 0px 0px;
+    /*margin: 0px 0px 0px 0px;*/
 }
 
 .textoDaniel{
     display: inline-block;
-    margin: 0px 0px 0px 30px;
+/*    margin: 0px 0px 0px 30px;
     position: relative;
-    bottom: 60px;
+    top: 90px; */
 }
 /*Terminan atributos Daniel*/
 
 /*Inician atributos Estefi*/
 .SecEstefi{
+    grid-area: estefi;
     display: block;
-    margin: 40px 0px 0px 150px;
+    justify-content:end;
+    margin: 40px 0px 0px 0px;
 }
 
 #Estefi{
@@ -227,15 +255,17 @@ footer {
 
 .textoEstefi{
     display: inline-block;
-    position: relative;
-    bottom: 100px;
+   /* position: relative;
+    bottom: 100px;*/
 }
 /*Terminan atributos Estefi*/
 
 /*Inician atributos Juan*/
 .SecJuan{
+    grid-area: juan;
     display: block;
     margin: 40px 0px 20px 20px;
+
 }
 
 #Juan{
@@ -248,8 +278,8 @@ footer {
 .textoJuan{
     display: inline-block;
     margin: 0px 0px 0px 30px;
-    position: relative;
-    bottom: 80px;
+ /*   position: relative;
+    bottom: 80px; */
 }
 /*Terminan atributos Juan*/
 

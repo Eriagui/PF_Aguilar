@@ -29,8 +29,9 @@ p,a,span,li,input,button,form {
 
 header {
     width: 100%;
+    /*height: 100px;*/
     background-color: #88b2cf;
-    padding: 20px;
+    padding: 10px, 20px, 10px, 20px;
     position: sticky;
     top: 0px;
     z-index: 10;
@@ -118,17 +119,31 @@ footer {
 
 /*----------------------Inicio de CSS para el Index----------------------------*/
 
+.pagina{
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
 #DentistaFeliz {
     width: 640px;
-    height: 630px;
-    position: relative;
-    bottom: 0px;
+    height: 640px;
+    /*display: flex;
+    justify-content: center;*/
+    margin: 50px, 50px, 50px, 50px;
+
+    /*position: relative;
+    bottom: 0px;*/
 }
 
 .texto_home {
     display: inline-block;
     width: 800px;
     margin: 10px 0px 10px 10px;
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .texto_home ul li{
@@ -164,6 +179,11 @@ footer {
 /*---------------------Inicio de CSS para Nosotros----------------------------------*/
 
 .texto_nosotros {
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
     display: grid;
     /*gap: 2rem;*/
     grid-template-columns: 100%;
@@ -179,6 +199,7 @@ footer {
     ;
     /*grid-row: 15px;
     grid-column: 15px;*/
+
 }
 
 .texto_nosotros h1{
@@ -286,13 +307,143 @@ footer {
 /*---------------------Fin de CSS para Nosotros-------------------------------------*/
 
 /*---------------------Inicio de CSS para Servicios---------------------------------*/
-.texto_servicios ul li{
-    margin: 10px 0px 0px 30px;
-    list-style-position: inside;
+.texto_servicios{
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+    /*background-size: cover;*/
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "servicios"
+        "limpieza"
+        "img_limpieza"
+        "resina"
+        "img_resina"
+        "coronas"
+        "img_coronas"
+        "endodoncia"
+        "img_endo"
+        "blanqueamiento"
+        "img_blanq"
+        "peridoncia"
+        "img_perido"
+    ;
 }
 
 .texto_servicios h1{
-    margin: 0px 0px 30px 650px;
+    /*margin: 0px 0px 30px 650px;*/
+    grid-area: "servicios";
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto_limpieza{
+    grid-area: "limpieza";
+}
+
+.imagen_limpieza{
+    grid-area: "img_limpieza";
+    display: flex;
+    justify-content: center;
+}
+
+#Limpieza{
+    /*display:block;*/
+    /*margin: 10px 0px 100px 500px;*/
+    margin: 10px 0px 100px 0px;
+    width: 400px;
+    height: 300px;
+}
+
+.texto_resina{
+    grid-area:"resina";
+}
+
+.imagen_resina{
+    grid-area: "img_resina";
+    display: flex;
+    justify-content: center;
+}
+
+#Resina{
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px 100px 0px;
+}
+
+.texto_coronas{
+    grid-area:"coronas";
+}
+
+.imagen_coronas{
+    grid-area: "img_coronas";
+    display: flex;
+    justify-content: center;
+}
+
+#Corona{
+    /*display:block;*/
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px 100px 0px;
+}
+
+.texto_endodoncia{
+    display: block;
+    grid-area:"endodoncia";
+    margin: 0px, 10px, 0px, 50px;
+}
+
+.imagen_endodoncia{
+    grid-area: "img_endo";
+    display: flex;
+    justify-content: center;
+}
+
+#Endodoncia{
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px 100px 0px;
+}
+
+.texto_blanqueamiento{
+    grid-area: "blanqueamiento";
+}
+
+.imagen_blanqueamiento{
+    grid-area: "img_blanq";
+    display: flex;
+    justify-content: center;
+}
+
+#Blanqueamiento{
+    display:block;
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px 100px 0px;
+}
+
+.texto_peridoncia{
+    grid-area: "peridoncia";
+}
+
+.imagen_peridoncia{
+    grid-area: "img_perido";
+    display: flex;
+    justify-content: center;
+}
+
+#Peridoncia{
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px 100px 0px;
+}
+
+.texto_servicios ul li{
+    margin: 10px 0px 0px 30px;
+    list-style-position: inside;
 }
 
 .texto_servicios h2,h3{
@@ -304,56 +455,23 @@ footer {
     margin: 0px 0px 10px 0px;
 }
 
-#Limpieza{
-    display:block;
-    width: 400px;
-    height: 300px;
-    margin: 10px 0px 100px 500px;
-}
-
-#Resina{
-    display:block;
-    width: 400px;
-    height: 200px;
-    margin: 10px 0px 100px 500px;
-}
-
-#Corona{
-    display:block;
-    width: 400px;
-    height: 200px;
-    margin: 10px 0px 100px 500px;
-}
-
-#Endodoncia{
-    display:block;
-    width: 400px;
-    height: 200px;
-    margin: 10px 0px 100px 500px;
-}
-
-#Blanqueamiento{
-    display:block;
-    width: 400px;
-    height: 200px;
-    margin: 10px 0px 100px 500px;
-}
-
-#Peridoncia{
-    display:block;
-    width: 400px;
-    height: 200px;
-    margin: 10px 0px 100px 500px;
-}
 /*---------------------Fin de CSS para Servicios------------------------------------*/
 
 /*---------------------Inicio de CSS para Blog---------------------------------*/
 
+.pagina{
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
+
 #Alineadores{
     display: inline-block;
     width: 400px;
-    height: 250px;
-    margin: 0px 0px 0px 0px;
+    height: 280px;
+    margin: 25px 0px 0px 0px;
 }
 
 .texto_blog h3{
@@ -371,9 +489,9 @@ footer {
     list-style-position: inside;
 }
 
-.texto_blog h1{
+/*.texto_blog h1{
     margin: 0px 0px 30px 650px;
-}
+}*/
 
 .texto_blog h2,h4{
     margin: 10px 0px 10px 0px;
@@ -402,7 +520,7 @@ footer {
     display: inline-block;
     width: 500px;
     height: 400px;
-    margin: 0px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
 }
 
 .texto_aside_s2{
@@ -417,21 +535,28 @@ footer {
 /*----------------------------Inico de CSS para el Contacto-------------------------*/
 
 body.contacto{
-    background-image: url(../assets/images/sonrisa.png);
-    background-size: cover;  
+    /*background-image: url(../assets/images/sonrisa.png);
+    background-size: cover;*/  
+    background-image: linear-gradient(rgba(254, 254, 255, 0.8),rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-body.contacto h1{
+/*body.contacto h1{
     margin: 0px 0px 0px 400px;
     font-size: xx-large;
     font-weight: bold;
-}
+}*/
 
 form{
     width: 100%;
     height: 100vh;
     padding: 30px;
     font-size: x-large;
+    /*display: flex;
+    flex-direction: column;*/
+    /*align-content: center;*/
 
 }
 
@@ -471,7 +596,7 @@ form #telefono label {
 }
 
 #mensaje {
-    font-size:x-large;
+    font-size:large;
 }
 
 form textarea {
@@ -488,7 +613,7 @@ form textarea {
 
 form #enviar {
     background-color: rgb(206, 203, 203);
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold;
     margin: 10px 0px 0px 110px;
 }

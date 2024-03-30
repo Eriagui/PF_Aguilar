@@ -60,19 +60,20 @@
         </div>
     </header>
 
-    <main class="texto_nosotros">
-        <h1>Nosotros</h1>
+    <main class="container-fluid background"> <!--.texto_nosotros-->
+        <h1 class="centrado">Nosotros</h1>
         <p>Somos un grupo de profesionales médicos apasionados por la salud bucal de las
             personas para contribuir con esto en la mejora de la salud general, bienestar
             y calidad de vida de las mismas.
         </p>
 
         <h2>Algunos de Nuestros Colaboradores:</h2>
-
-        <section class="SecDaniel">
-            <img id="Daniel" src="../assets/images/daniel.jpg" alt="Daniel">
-
-            <div class="textoDaniel">
+        <!--Seccion Daniel-->
+        <div class="row align-items-center borde-abajo">
+            <section class="col-lg-6 col-xs-12">
+                <img src="../assets/images/daniel.jpg" alt="Odontologo Daniel" class="img-fluid imagen--nosotros">
+            </section>
+            <section class="col-lg-6 col-xs-12 texto_home">
                 <h3>Doctor Daniel Manzo</h3>
                 <ul>
                     <li>Licenciado en Odontología por la Facultad de Odontología de la UNAM</li>
@@ -84,11 +85,12 @@
                         y no pediátricos
                     </li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <section class="SecEstefi">
-            <div class="textoEstefi">
+        <!--Seccion Estefania-->
+        <div class="row align-items-center borde-abajo">
+            <section class="col-lg-6 col-xs-12 texto_home">
                 <h3>Doctora Estefanía</h3>
                 <ul>
                     <li>Licenciada en Odontología por la Universidad Mondragón</li>
@@ -97,13 +99,18 @@
                         y no pediátricos
                     </li>
                 </ul>
-            </div>
-            <img id="Estefi" src="../assets/images/estefi.png" alt="Estefi">
-        </section>
+            </section>
+            <section class="col-lg-6 col-xs-12">
+                <img src="../assets/images/estefi.png" alt="Odontologa Estefania" class="img-fluid imagen--nosotros">
+            </section>
+        </div>
 
-        <section class="SecJuan">
-            <img id="Juan" src="../assets/images/juan.png" alt="Juan">
-            <div class="textoJuan">
+        <!--Seccion Juan-->
+        <div class="row align-items-center">
+            <section class="col-lg-6 col-xs-12">
+                <img src="../assets/images/juan.png" alt="Odontologo Juan" class="img-fluid imagen--nosotros">
+            </section>
+            <section class="col-lg-6 col-xs-12 texto_home">
                 <h3>Doctor Juan Perez Chavez</h3>
                 <ul>
                     <li>Licenciada en Odontología por la Universidad Mondragón</li>
@@ -112,8 +119,9 @@
                         y no pediátricos</li>
                     </li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div>
+
     </main>
 
     <a href="https://api.whatsapp.com/send?phone=524423782450" class="btn-wsp" target="_blank"></a>

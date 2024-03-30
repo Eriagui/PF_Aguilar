@@ -41,6 +41,11 @@ header {
     height: 80px;
     /*padding: 0px, 100px, 0px, 0px;*/
 }
+
+.agrandar:hover{
+    font-size:x-large; 
+}
+
 /*Fin CSS Header*/
 
 /* Inicio Background*/
@@ -114,6 +119,7 @@ footer {
     width: 700px;
     height: 530px;
 }
+
 /*---------------------Fin de CSS para el Index-------------------------------------*/
 
 /*---------------------Inicio de CSS para Nosotros----------------------------------*/

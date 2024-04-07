@@ -1,0 +1,170 @@
+/*---------- Inicio Reset ------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---------- Fin Reset ---------------------*/
+/* -------- Inicio Fuentes --------------*/
+@font-face {
+  font-family: ComicNeue;
+  src: url(../assets/fonts/ComicNeue-Regular.ttf);
+}
+/* --------- Fin Fuentes -----------------*/
+/*----------Inicio Tipografia--------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: ComicNeue;
+  font-weight: bold;
+}
+
+p, a, span, li, input, button, form {
+  font-family: ComicNeue;
+  font-size: large;
+}
+
+/*----------Fin Tipografia---------------------*/
+/*--------------Inicio Temas---------------------*/
+.background {
+  padding: 0px 5vw 0px 5vw;
+  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+/*--------------Fin Temas----------------------*/
+/*--------------- Inicio Clases Comunes------------------------*/
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.borde-abajo {
+  border-bottom: solid;
+}
+
+/*---------------Fin Clases Comunes---------------------------*/
+/*--------------Inicio Header--------------------------*/
+header {
+  width: 100%;
+  background-color: #88b2cf;
+  padding: 10px, 20px, 10px, 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+#Logo1 {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.agrandar:hover {
+  font-size: x-large;
+}
+
+/*---------------Fin Header-------------------------*/
+/*------------------Inicio Footer--------------------------*/
+footer {
+  width: 100%;
+  background-color: #88b2cf;
+  padding: 20px;
+}
+
+#NombreClinicaFooter {
+  display: inline-block;
+  position: relative;
+  left: 300px;
+}
+
+#DerechosReservados {
+  display: inline-block;
+  position: relative;
+  bottom: 0px;
+  left: 600px;
+}
+
+/*---------------------Fin Footer------------------------------*/
+/*--------------Inicio Botones---------------------------*/
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #25d366;
+  background: #FFF;
+}
+
+/*------------------Fin Botones------------------------------*/
+/*---------------Inicio CSS Home-----------------------*/
+#DentistaFeliz {
+  width: 700px;
+  height: 530px;
+}
+
+/*---------------Fin CSS Home--------------------------*/
+/*----------------Inicio CSS Nosotros-----------------------------*/
+.imagen--nosotros {
+  margin: 10px 0px 50px 0px;
+  width: 400px;
+  height: 300px;
+}
+
+/*----------------Fin CSS Nosotros--------------------------------*/
+/*-------------------Inicio CSS Servicios----------------------*/
+.imagen--servicios {
+  margin: 10px 0px 50px 0px;
+  width: 400px;
+  height: 200px;
+}
+
+/*-------------------Fin CSS Servicios-------------------------*/
+/*----------------Inicio CSS Blog------------------------------*/
+.pagina {
+  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#Alineadores {
+  display: inline-block;
+  width: 400px;
+  height: 280px;
+  margin: 25px 0px 0px 0px;
+}
+
+#Blanqueamiento2 {
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  margin: 25px 0px 10px 0px;
+}
+
+/*----------------Fin CSS Blog------------------------------*/
+/*----------------------------Inico de CSS para el Contacto-------------------------*/
+form input {
+  text-transform: uppercase;
+}
+
+form #enviar {
+  font-size: 3vw;
+  margin: 10px 0px 10px 0px;
+}
+
+/*--------------------------------Fin de CSS para el Contacto-----------------------*/
+
+/*# sourceMappingURL=main.css.map */

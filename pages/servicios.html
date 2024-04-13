@@ -51,8 +51,22 @@
                             <li class="nav-item active">
                                 <a class="nav-link agrandar" href="./nosotros.html">Nosotros</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link agrandar" href="./servicios.html">Servicios</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle agrandar" href="#"
+                                    id="navbarDropdown" role ="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#limpieza">Limpieza</a>
+                                    <a class="dropdown-item" href="#resina">Resina</a>
+                                    <a class="dropdown-item" href="#coronas">Coronas</a>
+                                    <a class="dropdown-item" href="#endodoncia">Endodoncia</a>
+                                    <a class="dropdown-item" href="#blanqueamiento">Blanqueamiento</a>
+                                    <a class="dropdown-item" href="#periodoncia">Periodoncia</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="./servicios.html">Todos</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link agrandar" href="./blog.html">Blog</a>
@@ -70,7 +84,7 @@
     <main class="background">
         <h1 class="centrado">Servicios</h1>
 
-        <h2>Limpieza dental</h2>
+        <h2 id="limpieza" class="padding-superior">Limpieza dental</h2>
         <p>
             Es un procedimiento indoloro, cómodo, rápido y efectivo mediante el cual tu
             odontólogo removerá manchas, sarro y placa bacteriana que podría afectar la salud
@@ -89,7 +103,7 @@
             <img class="imagen--servicios" src="../assets/images/limpieza.png" alt="Limpieza Dental">
         </div>
 
-        <h2>Resina dental</h2>
+        <h2 id="resina" class="padding-superior">Resina dental</h2>
         <p>
             Las resinas dentales son una solución ideal que permite curar caries y corregir
             cavidades, lesiones o fisuras en los dientes de forma segura, estética y natural.
@@ -111,7 +125,7 @@
             <img class="imagen--servicios" src="../assets/images/resina.png" alt="Resina Dental">
         </div>
 
-        <h2>Coronas dentales</h2>
+        <h2 id="coronas" class="padding-superior">Coronas dentales</h2>
         <p>
             Conserva la forma de tu dentadura, la correcta masticación, posición y fortalece
             tus dientes con este tratamiento.
@@ -131,7 +145,7 @@
             <img class="imagen--servicios" src="../assets/images/corona.jpg" alt="Corona Dental">
         </div>
 
-        <h2>Endodoncia</h2>
+        <h2 id="endodoncia" class="padding-superior">Endodoncia</h2>
         <p>
             Evita que un diente tenga que ser extraído tras daño grave por caries, gracias
             a la endodoncia y endoposte.
@@ -153,7 +167,7 @@
             <img class="imagen--servicios" src="../assets/images/endodoncia.jpg" alt="Endodoncia">
         </div>
 
-        <h2>Blanqueamiento</h2>
+        <h2 id="blanqueamiento" class="padding-superior">Blanqueamiento</h2>
         <p>
             Una sonrisa deslumbrante en menos tiempo, con la última tecnología en blanqueamiento dental.
         </p>
@@ -166,7 +180,7 @@
             Dental">
         </div>
 
-        <h2>Periodoncia</h2>
+        <h2 id="periodoncia" class="padding-superior">Periodoncia</h2>
         <p>
             Una encía sana es la base de una dentadura fuerte, por eso prevenimos y resolvemos
             tus problemas de encías y en los huesos que sostienen tu dentadura.

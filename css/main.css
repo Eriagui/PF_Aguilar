@@ -47,6 +47,10 @@ p, a, span, li, input, button, form {
   border-bottom: solid;
 }
 
+.padding-superior {
+  padding: 100px 0px 0px 0px;
+}
+
 /*---------------Fin Clases Comunes---------------------------*/
 /*--------------Inicio Header--------------------------*/
 header {

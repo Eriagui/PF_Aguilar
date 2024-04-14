@@ -1,10 +1,19 @@
 /*----------------------------Inico de CSS para el Contacto-------------------------*/
-form input{
-    text-transform:uppercase;
+form{
+
+    & input{
+        text-transform: uppercase;
+    }
+
+    & textarea{
+        text-transform: uppercase;
+    
+    }
+
+    & #enviar {
+        font-size: 3vw;
+        margin: 10px 0px 10px 0px;
+    }
 }
 
-form #enviar {
-    font-size: 3vw;
-    margin: 10px 0px 10px 0px;
-}
 /*--------------------------------Fin de CSS para el Contacto-----------------------*/

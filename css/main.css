@@ -169,7 +169,9 @@ footer {
 form input {
   text-transform: uppercase;
 }
-
+form textarea {
+  text-transform: uppercase;
+}
 form #enviar {
   font-size: 3vw;
   margin: 10px 0px 10px 0px;

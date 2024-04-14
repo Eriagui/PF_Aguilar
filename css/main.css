@@ -114,6 +114,9 @@ footer {
   margin: 0px 20px 0px 0px;
   color: black;
 }
+.icon:hover {
+  font-size: 30px;
+}
 
 /*---------------Inicio CSS Home-----------------------*/
 #DentistaFeliz {

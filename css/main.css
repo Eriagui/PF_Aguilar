@@ -78,6 +78,13 @@ footer {
   padding: 20px;
 }
 
+@media (max-width: 1000px) {
+  .redes {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /*---------------------Fin Footer------------------------------*/
 /*--------------Inicio Botones---------------------------*/
 .btn-wsp {
@@ -102,6 +109,12 @@ footer {
 }
 
 /*------------------Fin Botones------------------------------*/
+.icon {
+  font-size: 25px;
+  margin: 0px 20px 0px 0px;
+  color: black;
+}
+
 /*---------------Inicio CSS Home-----------------------*/
 #DentistaFeliz {
   width: 700px;

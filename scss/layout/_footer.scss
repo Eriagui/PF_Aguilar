@@ -4,4 +4,11 @@ footer {
     background-color: $header-footer-color;
     padding: 20px;
 }
+
+.redes{
+    @media (max-width: 1000px) {
+        display: flex;
+        justify-content: center;
+    }
+}
 /*---------------------Fin Footer------------------------------*/

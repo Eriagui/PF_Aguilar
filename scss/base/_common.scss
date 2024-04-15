@@ -9,6 +9,10 @@
 }
 
 .padding-superior{
-    padding: 150px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+
+    @media (max-width: 750px) {
+        padding: 150px 0px 0px 0px;
+    }
 }
 /*---------------Fin Clases Comunes---------------------------*/

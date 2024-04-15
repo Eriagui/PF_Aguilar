@@ -48,7 +48,12 @@ p, a, span, li, input, button, form {
 }
 
 .padding-superior {
-  padding: 150px 0px 0px 0px;
+  padding: 100px 0px 0px 0px;
+}
+@media (max-width: 750px) {
+  .padding-superior {
+    padding: 150px 0px 0px 0px;
+  }
 }
 
 /*---------------Fin Clases Comunes---------------------------*/
@@ -73,9 +78,10 @@ header .agrandar:hover {
 /*---------------Fin Header-------------------------*/
 /*------------------Inicio Footer--------------------------*/
 footer {
-  width: 100%;
+  width: 115%;
   background-color: #88b2cf;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 @media (max-width: 1000px) {

@@ -1,6 +1,12 @@
 /*---------------Inicio CSS Home-----------------------*/ 
 #DentistaFeliz {
     width: 700px;
-    height: 530px;
+    height: 475px;
+
+    @media (max-width: 1000px) {
+        width: 300px;
+        height: 200px;
+    }
+
 }
 /*---------------Fin CSS Home--------------------------*/

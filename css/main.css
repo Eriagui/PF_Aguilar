@@ -31,7 +31,7 @@ p, a, span, li, input, button, form {
 /*--------------Inicio Temas---------------------*/
 .background {
   padding: 0px 5vw 0px 5vw;
-  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.webp);
   background-repeat: repeat;
   background-position: center;
 }
@@ -61,14 +61,14 @@ p, a, span, li, input, button, form {
 header {
   width: 100%;
   background-color: #88b2cf;
-  padding: 10px, 20px, 10px, 20px;
+  padding: 10px 20px 10px 20px;
   position: sticky;
   top: 0px;
   z-index: 10;
 }
 header .Logo1 {
   display: inline-block;
-  width: 80px;
+  width: 68px;
   height: 80px;
 }
 header .agrandar:hover {
@@ -127,7 +127,13 @@ footer {
 /*---------------Inicio CSS Home-----------------------*/
 #DentistaFeliz {
   width: 700px;
-  height: 530px;
+  height: 475px;
+}
+@media (max-width: 1000px) {
+  #DentistaFeliz {
+    width: 300px;
+    height: 200px;
+  }
 }
 
 /*---------------Fin CSS Home--------------------------*/
@@ -149,7 +155,7 @@ footer {
 /*-------------------Fin CSS Servicios-------------------------*/
 /*----------------Inicio CSS Blog------------------------------*/
 .pagina {
-  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.jpeg);
+  background-image: linear-gradient(rgba(254, 254, 255, 0.8), rgba(251, 253, 253, 0.8)), url(../assets/images/muelacepillo.webp);
   background-repeat: repeat;
   background-position: center;
 }
